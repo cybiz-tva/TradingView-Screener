@@ -356,7 +356,7 @@ class Query:
             'sort': {'sortBy': 'Value.Traded', 'sortOrder': 'desc'},
             'range': [0, 50],
         }
-        self.url = 'https://scanner.tradingview.com/america/scan'
+        self.url = 'https://scanner.tradingview.com/forex/scan'
 
     def set_markets(self, *markets: str) -> Query:
         """
